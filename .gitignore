@@ -1,0 +1,13 @@
+# Ignore node modules and build artifacts
+node_modules/
+.DS_Store
+.env
+*.log
+
+# Ignore GitHub Pages deployment branch
+# (gh-pages branch is remote only, but ignore local artifacts if any)
+
+# Ignore all files and folders named 'pages' (case-insensitive)
+pages/
+Pages/
+PAGES/
