@@ -79,7 +79,8 @@ const App = () => {
                     onMouseEnter={() => setHoveredLink('linkedin')}
                     onMouseLeave={() => setHoveredLink(null)}
                 >
-                    LinkedIn
+                 
+                
                 </a>
                 <a 
                     href="https://instagram.com/kaif11alii" 
