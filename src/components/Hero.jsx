@@ -64,7 +64,7 @@ const Hero = () => {
           <div className="relative">
             <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-8 border-white">
               <img 
-                src="https://via.placeholder.com/400x400/1A3C34/FFFFFF?text=KF" 
+                src="/portfolio/kaifali.jpg" 
                 alt="Kaif Ali Profile" 
                 className="w-full h-full object-cover"
               />
