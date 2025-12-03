@@ -59,7 +59,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://linkedin.com" 
+                href="https://www.linkedin.com/in/kaifali/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F2A93B] transition-colors"
@@ -69,7 +69,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a 
-                href="https://wa.me/yourphonenumber" 
+                href="https://wa.me/7779018599" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white rounded-full flex items-center justify-center hover:bg-[#F2A93B] transition-colors"
