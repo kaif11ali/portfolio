@@ -62,7 +62,7 @@ const Hero = () => {
         <div className="relative flex justify-center items-center">
           {/* Main Profile Image */}
           <div className="relative">
-            <div className="w-80 h-80 rounded-full overflow-hidden shadow-2xl border-8 border-white">
+            <div className="rounded-full overflow-hidden shadow-2xl border-8 border-white" style={{ width: '25rem', height: '25rem' }}>
               <img 
                 src="/kaifali.jpg" 
                 alt="Kaif Ali Profile" 
