@@ -1,41 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KF - Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: white;
-            color: black;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #root {
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Kaif Ali – Web Scraping & Automation Specialist</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div id="root"></div>
+<body class="bg-gray-900 text-white">
 
-    <!-- React and ReactDOM from CDN -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-    <!-- Babel for JSX transformation -->
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- NAVBAR -->
+  <nav class="flex justify-between items-center p-6">
+    <h1 class="text-2xl font-bold">KF Scraping</h1>
+    <div class="space-x-6">
+      <a href="#services" class="hover:text-gray-300">Services</a>
+      <a href="#projects" class="hover:text-gray-300">Projects</a>
+      <a href="#contact" class="hover:text-gray-300">Contact</a>
+    </div>
+  </nav>
 
-    <!-- Main App Script -->
-    <script type="text/babel" src="app.js"></script>
+  <!-- HERO SECTION -->
+  <section class="text-center py-28 px-6">
+    <h2 class="text-4xl md:text-6xl font-bold leading-tight">
+      I Extract the Data You Need — <span class="text-indigo-400">Fast & Reliable</span>
+    </h2>
+    <p class="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
+      Custom web scraping, automation pipelines, anti-bot solutions, and clean data delivery (CSV, JSON, API).
+    </p>
+    <div class="mt-10 space-x-4">
+      <a href="#contact"
+         class="bg-indigo-500 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-indigo-600">
+         Hire Me
+      </a>
+      <a href="#projects"
+         class="border border-gray-500 px-6 py-3 rounded-lg text-lg hover:bg-gray-800">
+         View Case Studies
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold mb-10 text-center">Services</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Custom Web Scraping</h4>
+        <p class="text-gray-400">Extract structured data from any website with clean CSV/JSON delivery.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Recurring Data Feeds</h4>
+        <p class="text-gray-400">Daily, weekly, or monthly scraping pipelines delivered automatically.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Anti-Bot / CAPTCHA Handling</h4>
+        <p class="text-gray-400">Proxies, stealth browsers, and bypass strategies for stable scrapers.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">API Development</h4>
+        <p class="text-gray-400">Get your scraped data through secure API endpoints.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Bulk Scraping</h4>
+        <p class="text-gray-400">High-volume scraping (10k–1M records) with monitoring.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold mb-2">Automation Solutions</h4>
+        <p class="text-gray-400">Automate repetitive workflows using custom scripts or Make.com.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS / CASE STUDIES -->
+  <section id="projects" class="py-20 px-6 bg-gray-950">
+    <h3 class="text-3xl font-bold mb-10 text-center">Case Studies</h3>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold">Amazon Review Scraper</h4>
+        <p class="text-gray-400 mt-2">Extracted 10k+ reviews including images + metadata. Delivered CSV + API.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold">Google Maps 1-Star Scraper</h4>
+        <p class="text-gray-400 mt-2">Daily automated extraction of newest reviews and reviewer profiles.</p>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-lg">
+        <h4 class="text-xl font-semibold">SEC EDGAR Filings Extractor</h4>
+        <p class="text-gray-400 mt-2">Bulk scraping of company filings with structured data output.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 px-6 text-center">
+    <h3 class="text-3xl font-bold mb-6">Let’s Work Together</h3>
+    <p class="text-gray-400 mb-8">Tell me what data you need — I’ll handle the rest.</p>
+
+    <a href="https://wa.me/<YOUR-NUMBER-HERE>"
+       class="bg-green-500 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-green-600">
+       WhatsApp Me
+    </a>
+
+    <p class="mt-6 text-gray-400">Or email me at: <span class="text-white font-semibold">your-email@example.com</span></p>
+  </section>
+
 </body>
 </html>
