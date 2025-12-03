@@ -65,7 +65,7 @@ const Hero = () => {
             <div className="rounded-full overflow-hidden shadow-2xl border-4 md:border-8 border-white w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[25rem] lg:h-[25rem]">
               <img 
                 src="/kaifali.jpg" 
-                alt="Kaif Ali Profile" 
+                alt="Kaif Ali Profile"
                 className="w-full h-full object-cover"
               />
             </div>
