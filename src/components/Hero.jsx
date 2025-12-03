@@ -62,7 +62,7 @@ const Hero = () => {
         <div className="relative flex justify-center items-center">
           {/* Main Profile Image */}
           <div className="relative">
-            <div className="rounded-full overflow-hidden shadow-2xl border-8 border-white" style={{ width: '25rem', height: '25rem' }}>
+            <div className="rounded-full overflow-hidden shadow-2xl border-4 md:border-8 border-white w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[25rem] lg:h-[25rem]">
               <img 
                 src="/kaifali.jpg" 
                 alt="Kaif Ali Profile" 
@@ -71,16 +71,16 @@ const Hero = () => {
             </div>
             
             {/* Floating Rating Card */}
-            <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 flex items-center space-x-3">
-              <div className="text-3xl">⭐</div>
+            <div className="absolute -bottom-2 -right-2 md:-bottom-4 md:-right-4 bg-white rounded-xl md:rounded-2xl shadow-xl p-2 md:p-4 flex items-center space-x-2 md:space-x-3">
+              <div className="text-xl md:text-3xl">⭐</div>
               <div>
-                <div className="text-2xl font-bold text-[#1A3C34]">4.7</div>
+                <div className="text-lg md:text-2xl font-bold text-[#1A3C34]">4.7</div>
                 <div className="text-xs text-[#43645C]">Client Rating</div>
               </div>
             </div>
 
             {/* Decorative Dotted Line */}
-            <div className="absolute -top-8 -left-8 w-24 h-24 border-4 border-dotted border-[#F2A93B] rounded-full opacity-50"></div>
+            <div className="hidden md:block absolute -top-8 -left-8 w-24 h-24 border-4 border-dotted border-[#F2A93B] rounded-full opacity-50"></div>
           </div>
         </div>
 
