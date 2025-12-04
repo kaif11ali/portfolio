@@ -4,33 +4,38 @@ const Services = () => {
   const services = [
     {
       icon: "🕷️",
-      title: "Web Scraping",
-      description: "Extract structured data from any website with precision. Custom scrapers built for your specific needs."
+      title: "Enterprise Web Scraping",
+      description: "Architect robust, scalable data extraction solutions tailored to your business requirements. Precision-engineered scrapers handling complex website structures with reliability."
     },
     {
       icon: "⚙️",
-      title: "Custom Scraper Development",
-      description: "Tailored scraping solutions for complex websites with dynamic content, pagination, and JavaScript rendering."
+      title: "Custom Scraper Architecture",
+      description: "Engineering sophisticated JavaScript scrapers leveraging Puppeteer, Playwright, and Cheerio. Expertly handling dynamic content, SPA frameworks, infinite scrolling, and complex authentication flows."
     },
     {
       icon: "🤖",
-      title: "Automation Workflows",
-      description: "End-to-end automation pipelines from data collection to processing and delivery on schedule."
+      title: "Intelligent Automation Workflows",
+      description: "Designing comprehensive Node.js automation architectures encompassing data acquisition, transformation, validation, and orchestrated delivery with enterprise-grade reliability."
     },
     {
       icon: "🔌",
-      title: "API/Data Delivery",
-      description: "Clean data delivery via REST API, CSV, JSON, Excel, or direct database integration."
+      title: "Data Integration & API Development",
+      description: "Seamless data delivery through RESTful APIs, structured formats (CSV, JSON, Excel), or direct database integration. Ensuring data integrity and optimal performance."
     },
     {
       icon: "📊",
-      title: "Bulk Scraping",
-      description: "Enterprise-level scraping for millions of records with optimized performance and reliability."
+      title: "Large-Scale Data Extraction",
+      description: "Enterprise-grade scraping infrastructure capable of processing millions of records. Optimized for performance, fault tolerance, and distributed processing with guaranteed reliability."
     },
     {
       icon: "🛡️",
-      title: "Anti-Bot + CAPTCHA Handling",
-      description: "Advanced techniques to bypass bot detection, solve CAPTCHAs, and handle rate limiting."
+      title: "Advanced Bot Mitigation",
+      description: "Implementing sophisticated strategies for bot detection circumvention, intelligent CAPTCHA resolution, rate limit management, and fingerprint randomization."
+    },
+    {
+      icon: "🎯",
+      title: "Apify Actor Engineering",
+      description: "Developing production-grade Apify Actors for cloud-native scraping infrastructure. Featuring automated scheduling, comprehensive monitoring, and horizontal scalability."
     }
   ];
 

@@ -3,40 +3,40 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: "Amazon Review Scraper",
-      description: "Extracted 50,000+ product reviews with ratings, verified purchase status, and timestamps. Delivered clean CSV with sentiment analysis.",
+      title: "Amazon Review Intelligence System",
+      description: "Engineered comprehensive review extraction system processing 50,000+ entries with multi-dimensional data capture including ratings, verification status, temporal data, and integrated sentiment analysis.",
       metrics: "50K+ reviews • 3-day delivery",
-      tech: ["Python", "BeautifulSoup", "Selenium"]
+      tech: ["Puppeteer", "Cheerio", "Node.js"]
     },
     {
-      title: "Google Maps 1-Star Review Scraper",
-      description: "Automated collection of negative reviews from Google Maps for reputation monitoring. Included business names, ratings, and review text.",
+      title: "Reputation Monitoring Platform",
+      description: "Developed automated Google Maps review aggregation system for enterprise reputation management. Real-time collection of business intelligence including sentiment analysis, rating trends, and comprehensive metadata.",
       metrics: "10K+ reviews • Real-time updates",
-      tech: ["Selenium", "API Integration", "MongoDB"]
+      tech: ["Playwright", "API Integration", "MongoDB"]
     },
     {
-      title: "SEC EDGAR Filing Extractor",
-      description: "Scraped and parsed financial documents from SEC EDGAR database. Extracted structured data from 10-K and 10-Q filings.",
+      title: "Financial Document Intelligence",
+      description: "Architected sophisticated SEC EDGAR data extraction engine for financial document analysis. Automated parsing and structuring of 10-K and 10-Q filings into queryable formats.",
       metrics: "5,000+ filings • Structured JSON",
-      tech: ["Python", "Pandas", "RegEx"]
+      tech: ["Cheerio", "Node.js", "RegEx"]
     },
     {
-      title: "E-commerce Price Monitor",
-      description: "Automated price tracking system for competitor analysis. Monitors 1,000+ products across multiple platforms with alerts.",
+      title: "Dynamic Pricing Intelligence Platform",
+      description: "Built real-time competitive pricing surveillance system monitoring 1,000+ products across multiple e-commerce platforms. Features intelligent alerting, historical trend analysis, and predictive insights.",
       metrics: "1K+ products • Hourly updates",
-      tech: ["Scrapy", "Redis", "FastAPI"]
+      tech: ["Puppeteer", "Redis", "Express.js"]
     },
     {
-      title: "LinkedIn Job Scraper",
-      description: "Collected job postings from LinkedIn with titles, companies, locations, and descriptions. Built custom automation to handle rate limits.",
+      title: "Career Intelligence Aggregator",
+      description: "Developed sophisticated LinkedIn job market analysis system extracting comprehensive employment data including role specifications, organizational information, and geographic distribution. Implemented intelligent rate limiting and session management.",
       metrics: "20K+ jobs • Daily automation",
       tech: ["Playwright", "Node.js", "PostgreSQL"]
     },
     {
-      title: "Real Estate Data Aggregator",
-      description: "Scraped property listings from multiple real estate sites. Normalized data and delivered unified dataset with images and pricing.",
+      title: "Multi-Source Property Intelligence",
+      description: "Engineered comprehensive real estate data aggregation platform consolidating listings from disparate sources. Implemented advanced data normalization, image processing pipelines, and unified schema design.",
       metrics: "15K+ properties • Multi-source",
-      tech: ["Scrapy", "AWS S3", "Airflow"]
+      tech: ["Apify Actor", "AWS S3", "Node.js"]
     }
   ];
 

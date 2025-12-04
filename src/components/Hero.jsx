@@ -15,13 +15,14 @@ const Hero = () => {
               KF.
             </h1>
             <h3 className="text-[#1A3C34] text-2xl md:text-3xl font-bold mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Web Scraping & Automation Specialist
+              Senior JavaScript Engineer | Web Scraping & Automation
             </h3>
           </div>
 
           <p className="text-[#43645C] text-lg leading-relaxed max-w-lg">
-            I help businesses extract the data they need with custom web scraping solutions, 
-            automation workflows, and anti-bot strategies. Clean delivery via CSV, JSON, or API.
+            Transforming complex data extraction challenges into elegant solutions. Specializing in enterprise-grade 
+            web scraping and intelligent automation using cutting-edge technologies including Puppeteer, Playwright, 
+            Cheerio, and Apify platform. Delivering precision-engineered data pipelines with seamless API integration.
           </p>
 
           <div className="flex items-center space-x-8">
