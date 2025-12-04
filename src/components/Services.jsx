@@ -40,34 +40,35 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="bg-white py-20 px-8">
+    <section id="services" className="bg-white py-20 px-8" aria-labelledby="services-heading">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-[#F2A93B] text-xl mb-2" style={{ fontFamily: 'Caveat, cursive' }}>
+        <header className="text-center mb-16">
+          <p className="text-[#F2A93B] text-xl mb-2" style={{ fontFamily: 'Caveat, cursive' }}>
             What I Do
-          </h2>
-          <h3 className="text-[#1A3C34] text-4xl md:text-5xl font-bold" style={{ fontFamily: 'Inter, sans-serif' }}>
+          </p>
+          <h2 id="services-heading" className="text-[#1A3C34] text-4xl md:text-5xl font-bold" style={{ fontFamily: 'Inter, sans-serif' }}>
             Services
-          </h3>
-        </div>
+          </h2>
+        </header>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8" role="list">
           {services.map((service, index) => (
-            <div 
+            <article 
               key={index}
               className="bg-white p-8 rounded-2xl shadow-md hover:shadow-xl transition-shadow border border-gray-100 hover:border-[#F2A93B]"
+              role="listitem"
             >
-              <div className="text-5xl mb-4">{service.icon}</div>
-              <h4 className="text-[#1A3C34] text-xl font-bold mb-3">
+              <div className="text-5xl mb-4" aria-hidden="true">{service.icon}</div>
+              <h3 className="text-[#1A3C34] text-xl font-bold mb-3">
                 {service.title}
-              </h4>
+              </h3>
               <p className="text-[#43645C] leading-relaxed">
                 {service.description}
               </p>
-            </div>
+            </article>
           ))}
         </div>
 

@@ -22,21 +22,21 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="bg-white py-20 px-8">
+    <section id="contact" className="bg-white py-20 px-8" aria-labelledby="contact-heading">
       <div className="max-w-7xl mx-auto">
         
         {/* Section Header */}
-        <div className="text-center mb-16">
-          <h2 className="text-[#F2A93B] text-xl mb-2" style={{ fontFamily: 'Caveat, cursive' }}>
+        <header className="text-center mb-16">
+          <p className="text-[#F2A93B] text-xl mb-2" style={{ fontFamily: 'Caveat, cursive' }}>
             Let's Talk
-          </h2>
-          <h3 className="text-[#1A3C34] text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>
+          </p>
+          <h2 id="contact-heading" className="text-[#1A3C34] text-4xl md:text-5xl font-bold mb-4" style={{ fontFamily: 'Inter, sans-serif' }}>
             Get In Touch
-          </h3>
+          </h2>
           <p className="text-[#43645C] text-lg max-w-2xl mx-auto">
             Have a project in mind? Need web scraping or automation? Let's discuss how I can help you.
           </p>
-        </div>
+        </header>
 
         <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           

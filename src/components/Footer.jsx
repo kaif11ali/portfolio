@@ -2,25 +2,25 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A3C34] text-white py-12 px-8">
+    <footer className="bg-[#1A3C34] text-white py-12 px-8" role="contentinfo">
       <div className="max-w-7xl mx-auto">
         
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           
           {/* Brand */}
           <div>
-            <h3 className="text-4xl font-bold text-[#F2A93B] mb-4" style={{ fontFamily: 'Caveat, cursive' }}>
+            <h2 className="text-4xl font-bold text-[#F2A93B] mb-4" style={{ fontFamily: 'Caveat, cursive' }}>
               KF.
-            </h3>
+            </h2>
             <p className="text-gray-300 text-sm">
               Web Scraping & Automation Specialist helping businesses extract and automate data efficiently.
             </p>
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-lg font-bold mb-4">Quick Links</h4>
-            <ul className="space-y-2">
+          <nav aria-label="Footer navigation">
+            <h3 className="text-lg font-bold mb-4">Quick Links</h3>
+            <ul className="space-y-2" role="list">
               <li>
                 <a href="#home" className="text-gray-300 hover:text-[#F2A93B] transition-colors">
                   Home
@@ -42,12 +42,12 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </nav>
 
           {/* Social Media */}
           <div>
-            <h4 className="text-lg font-bold mb-4">Connect</h4>
-            <div className="flex space-x-4">
+            <h3 className="text-lg font-bold mb-4">Connect</h3>
+            <div className="flex space-x-4" role="list" aria-label="Social media links">
               <a 
                 href="https://github.com/kaif11ali" 
                 target="_blank" 
