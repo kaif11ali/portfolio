@@ -15,15 +15,29 @@ const Hero = () => {
               KF.
             </h1>
             <h3 className="text-[#1A3C34] text-2xl md:text-3xl font-bold mb-6" style={{ fontFamily: 'Inter, sans-serif' }}>
-              Senior JavaScript Engineer | Web Scraping & Automation
+              Senior JavaScript Engineer | Web Scraping, Data Mining & AI Automation
             </h3>
           </div>
 
           <p className="text-[#43645C] text-lg leading-relaxed max-w-lg">
             Transforming complex data extraction challenges into elegant solutions. Specializing in enterprise-grade 
-            web scraping and intelligent automation using cutting-edge technologies including Puppeteer, Playwright, 
-            Cheerio, and Apify platform. Delivering precision-engineered data pipelines with seamless API integration.
+            web scraping, data mining, and AI automation using cutting-edge technologies including Puppeteer, Playwright, 
+            Cheerio, and Apify platform. Delivering precision-engineered data pipelines with seamless API integration 
+            and intelligent automation workflows.
           </p>
+          
+          {/* SEO-optimized hidden text for search engines */}
+          <div className="sr-only" aria-hidden="true">
+            Saiyed Kaifali (also known as Kaif Ali, Mohammad Kaif, KF, kelly, kaify, kaif11ali) - Expert web scraping specialist, 
+            data mining professional, AI automation engineer, and intelligent data extraction consultant. Services include 
+            web scraping, data scraping, automated data collection, browser automation, Python scraping, JavaScript scraping, 
+            Node.js automation, Puppeteer development, Playwright automation, Selenium scraping, web crawling, spider bot development, 
+            API scraping, REST API development, data pipeline creation, ETL automation, workflow automation, RPA services, 
+            robotic process automation, CAPTCHA solving, anti-bot bypass, proxy rotation, headless browser automation, 
+            dynamic content scraping, e-commerce scraping, social media data extraction, price monitoring, competitive intelligence, 
+            lead generation automation, data harvesting, structured data extraction, machine learning automation, 
+            Apify actor development, Scrapy projects, BeautifulSoup scraping, and custom automation solutions.
+          </div>
 
           <div className="flex items-center space-x-8">
             <div>
@@ -69,7 +83,7 @@ const Hero = () => {
             <div className="rounded-full overflow-hidden shadow-2xl border-4 md:border-8 border-white w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 lg:w-[25rem] lg:h-[25rem]">
               <img 
                 src="/kaifali.jpg" 
-                alt="Kaif Ali - Web Scraping and Automation Specialist, Professional Developer Portrait"
+                alt="Saiyed Kaifali (KF, Mohammad Kaif) - Web Scraping, Data Mining and AI Automation Specialist | Professional Developer Portrait"
                 className="w-full h-full object-cover"
                 loading="eager"
                 decoding="async"
