@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
               </div>
               <a 
-                href="https://wa.me/yourphonenumber" 
+                href="https://wa.me/7779018599" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="block w-full bg-[#25D366] text-white text-center py-3 rounded-lg font-semibold hover:bg-[#1fb855] transition-colors"
@@ -76,7 +76,7 @@ const Contact = () => {
                     href="mailto:kaifali@example.com" 
                     className="text-[#1A6F5C] hover:text-[#F2A93B] transition-colors"
                   >
-                    contac@kaifali.tech
+                    Contact@kaifali.tech
                   </a>
                 </div>
               </div>
