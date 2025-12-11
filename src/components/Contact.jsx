@@ -83,7 +83,7 @@ const Contact = () => {
             </div>
 
             {/* Location */}
-            <div className="bg-[#F7F5EE] p-8 rounded-2xl">
+            {/* <div className="bg-[#F7F5EE] p-8 rounded-2xl">
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 bg-[#1A6F5C] rounded-full flex items-center justify-center text-3xl">
                   📍
@@ -93,7 +93,7 @@ const Contact = () => {
                   <p className="text-[#43645C]">Available for remote work worldwide</p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
 
