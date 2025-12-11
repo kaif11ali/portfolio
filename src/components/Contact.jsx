@@ -73,7 +73,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-[#1A3C34] text-xl font-bold">Email</h4>
                   <a 
-                    href="mailto:kaifali@example.com" 
+                    href="mailto:Contact@kaifali.tech" 
                     className="text-[#1A6F5C] hover:text-[#F2A93B] transition-colors"
                   >
                     Contact@kaifali.tech
