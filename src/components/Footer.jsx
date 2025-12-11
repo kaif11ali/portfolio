@@ -86,7 +86,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-600 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} KF (Kaif Ali). All rights reserved. Built with React & Tailwind CSS.
+            © {new Date().getFullYear()} Kaif Ali. All rights reserved.
           </p>
         </div>
 
